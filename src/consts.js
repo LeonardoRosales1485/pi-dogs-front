@@ -1,3 +1,4 @@
+const HOST = "https://deploying-backend-leoleo.herokuapp.com";
 const VERSION = "/v1";
 let DOG = `${VERSION}/dog`;
 let DOGS = `${VERSION}/dogs`;
@@ -7,11 +8,12 @@ let MY_DOGS = `${VERSION}/myDogs`;
 let TEMPERS = `${VERSION}/temperaments`;
 
 module.exports = {
-    VERSION,
-    DOG,
-    DOGS,
-    DETAILS,
-    TEMPERS,
-    ADD_DOG,
-    MY_DOGS,
-}
+  HOST,
+  VERSION,
+  DOG,
+  DOGS,
+  DETAILS,
+  TEMPERS,
+  ADD_DOG,
+  MY_DOGS,
+};

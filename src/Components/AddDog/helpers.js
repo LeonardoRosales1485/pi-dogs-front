@@ -38,19 +38,3 @@ export function reset() {
     temperament: "",
   };
 }
-//
-// export async function submitToDB(formData){
-//   console.log(formData);
-//   await axios
-//     .post("http://localhost:3001" + DOGS, {
-//       name: formData.name,
-//       height: formData.height,
-//       weight: formData.weight,
-//       lifeSpan: formData.lifeSpan,
-//       origin: formData.origin,
-//     })
-//     .then((res) => {
-//       console.log('El axios trae: ',res);
-//       alert("Dog added!");
-//     });
-// }

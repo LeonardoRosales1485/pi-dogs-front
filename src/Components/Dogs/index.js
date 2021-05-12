@@ -3,7 +3,7 @@ import axios from "axios";
 import Pagination from "./Pagination";
 import { Loading } from "../Loading";
 import { Link } from "react-router-dom";
-import { DOGS, MY_DOGS } from "../../consts.js";
+import { HOST, DOGS, MY_DOGS } from "../../consts.js";
 import styles from "./index.module.css";
 
 export default function Dogs() {
@@ -21,8 +21,8 @@ export default function Dogs() {
   useEffect(() => {
     const fetchAPI = async () => {
       setLoading(true);
-      const res1 = await axios.get("http://localhost:3001" + DOGS);
-      const res2 = await axios.get("http://localhost:3001" + MY_DOGS);
+      const res1 = await axios.get(HOST + DOGS);
+      const res2 = await axios.get(HOST + MY_DOGS);
       const res = res2["data"].concat(res1["data"]);
       setDogs(res);
       setLoading(false);

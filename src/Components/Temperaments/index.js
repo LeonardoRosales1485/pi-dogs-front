@@ -3,14 +3,14 @@ import styles from "./index.module.css";
 import { Asc } from "./Asc";
 import { Desc } from "./Desc";
 import axios from "axios";
-const { TEMPERS } = require("../../consts.js");
+const { HOST, TEMPERS } = require("../../consts.js");
 
 export default function Temperaments() {
   const [temperaments, setTemperaments] = useState([]);
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001${TEMPERS}`)
+      .get(HOST + TEMPERS)
       .then((response) => setTemperaments(response["data"]));
   }, []);
 
@@ -29,7 +29,7 @@ export default function Temperaments() {
         <button onClick={handleClick2}>descending</button> order
         <p>Click on any of these to see all the dogs with that temperament!</p>
       </div>
-      {order ? <Asc state={temperaments}/> : <Desc state={temperaments}/>}
+      {order ? <Asc state={temperaments} /> : <Desc state={temperaments} />}
     </div>
   );
 }
