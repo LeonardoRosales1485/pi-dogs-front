@@ -1,0 +1,15 @@
+.imgFixer {
+  width: 16em;
+  height: 12em;
+  margin: auto;
+}
+
+.imgWrapper {
+  margin-top: 8px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: auto;
+}

@@ -1,0 +1,84 @@
+.pageItem {
+  list-style-type: none;
+  display: inline;
+}
+.test {
+  font-weight: bold;
+}
+.botoncito {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+.decoracion {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffdd00 5%, #ffdd00 100%);
+  background-color: #ffdd00;
+  border-radius: 6px;
+  border: 1px solid #ffdd00;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffe100;
+}
+
+.decoracion:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.1s ease;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dogBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 480px;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  border: solid 1px #000000;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: rgba(255, 215, 0);
+  transition: 1s ease;
+  text-decoration: none;
+}
+
+.dogBox div {
+  font-weight: lighter;
+}
+
+hr {
+  clear: both;
+  visibility: hidden;
+}
+
+.imgFixer {
+  width: 28em;
+  height: 19em;
+  margin: auto;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.imgWrapper {
+  margin-top: 8px;
+}

@@ -1,0 +1,71 @@
+.busqueda{
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffdd00 5%, #ffdd00 100%);
+  background-color: #ffdd00;
+  border-radius: 6px;
+  border: 1px solid #ffdd00;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffe100;
+  margin: 2px;
+}
+
+.busqueda:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.input{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.inputBox{
+  width: 300px;
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+  transform: scale(1.03);
+  transition: 0.4s ease;
+}
+.inputBox2{
+  width: 300px;
+  margin: 5px;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  transform: scale(1.03);
+  transition: 0.6s ease;
+}
+.inputBox3{
+  width: 300px;
+  margin: 5px;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: auto;
+}
+
+.enNavi{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: auto;
+}

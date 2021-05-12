@@ -1,0 +1,19 @@
+.component{
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+.description{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.options{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+}

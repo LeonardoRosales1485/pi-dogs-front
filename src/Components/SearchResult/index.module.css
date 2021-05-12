@@ -1,0 +1,85 @@
+.pagination {
+  text-align: center;
+  margin: auto;
+}
+.wrapper{
+  margin: 10px;
+}
+
+.pagination a {
+  text-align: center;
+  margin: auto;
+  color: blue;
+  text-decoration: none;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+}
+
+.pageItem {
+  list-style-type: none;
+  display: inline;
+}
+
+.pageLink {
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dogBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 280px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  border: solid 1px #000000;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: rgba(255, 215, 0);
+  transition: 1s ease;
+  text-decoration: none;
+}
+
+.noHyper {
+  text-align: center;
+  margin: auto;
+  color: blue;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+}
+
+.dogBox div {
+  font-weight: bold;
+}
+.dogBox p {
+  font-weight: lighter;
+}
+
+.dogBox:hover {
+  background-color: rgb(222, 187, 0);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  transition: 0.4s ease;
+}
+
+.imgFixer {
+  width: 10em;
+  height: 8em;
+  margin: auto;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.imgWrapper {
+  margin-top: 8px;
+}
