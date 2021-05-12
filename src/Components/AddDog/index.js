@@ -14,7 +14,7 @@ export const AddDog = () => {
     origin: "",
     height: "",
     weight: "",
-    lifeSpan: "",
+    life_span: "",
     temperament: "",
   });
 
