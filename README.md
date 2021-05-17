@@ -7,9 +7,11 @@ Front End of my personal project for coding bootcamp SoyHenry. I had to use the 
 Also, all the dogs' information had to come from <a href="https://thedogapi.com/">The Dog API</a> and store in database the necessary information (such as all the dogs' temperaments and custom dogs inputed by user)
 
 # How to start on local
-1- Open your terminal
-2- write npm install
-3- Wait for completation, then write npm start
+1- Open your bash terminal
+
+2- Write "npm install"
+
+3- Wait for completation, then write "npm start"
 
 This must be done for the <a href="https://github.com/LeonardoRosales1485/PI-Dogs-BackEnd">BackEnd</a> of this project as well
 
