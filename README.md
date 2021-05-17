@@ -2,7 +2,7 @@
 Front End of my personal project for coding bootcamp SoyHenry. I had to use the following technologies:
 - Sequelize
 - Express.js
-- PostgreSQL
+- PostgreSQL (which is allocated at Heroku's database plugin)
 
 Also, all the dogs' information had to come from <a href="https://thedogapi.com/">The Dog API</a> and store in database the necessary information (such as all the dogs' temperaments and custom dogs inputed by user)
 
